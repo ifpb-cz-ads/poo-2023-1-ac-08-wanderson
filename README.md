@@ -1,1 +1,1 @@
-
+3. Construtores de superclasses não são herdados por subclasses porque o objetivo do construtor é inicializar os atributos específicos da classe em que foi declarado. Cada classe possui seus próprios atributos, portanto, cada uma precisa de um construtor que inicialize seus próprios atributos. Quando uma classe herda de outra, os atributos da superclasse também são herdados, mas não o construtor, pois cada classe filha precisa ter seu próprio construtor para inicializar seus próprios atributos.
